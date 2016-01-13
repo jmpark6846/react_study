@@ -4,7 +4,7 @@ import { render } from 'react-dom'
 var Main = React.createClass({
     render(){
         return (
-            <div className="ui container segment">
+            <div className="well container">
                 Hello {this.props.name}
             </div>
         );
