@@ -1,8 +1,19 @@
 import React from "react";
 import { render } from "react-dom"
-import Main from "./components/Main";
+import TodoApp from "./components/TodoApp";
+/*
+  <TodoApp>
+    <TodoInput />
+    <TodoList>
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+      ...
+    </TodoList>
+  </TodoApp>
 
+*/
 render(
-    <Main name="Joonmo"/>,
+    <TodoApp name="Joonmo" />,
     document.body
 );

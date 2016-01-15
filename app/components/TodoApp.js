@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from 'react-dom'
 
-var Main = React.createClass({
+var TodoApp = React.createClass({
     render(){
         return (
             <div className="well container">
@@ -11,5 +11,5 @@ var Main = React.createClass({
     },
 });
 
-module.exports = Main;
+module.exports = TodoApp;
 
