@@ -15,5 +15,5 @@ import TodoApp from "./components/TodoApp";
 */
 render(
     <TodoApp />,
-    document.body
+    document.getElementById('app')
 );

@@ -3,12 +3,15 @@
  */
 import React from "react";
 import ReactDOM from "react-dom";
+import TodoItem from "./TodoItem"
 
 module.exports = React.createClass({
   render: function(){
     return (
       <div className="todo-list">
-        <h1>todo list</h1>
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
       </div>
     )
   }
