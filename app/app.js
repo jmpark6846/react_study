@@ -14,6 +14,6 @@ import TodoApp from "./components/TodoApp";
 
 */
 render(
-    <TodoApp name="Joonmo" />,
+    <TodoApp />,
     document.body
 );

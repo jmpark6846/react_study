@@ -7,8 +7,8 @@ import ReactDOM from "react-dom";
 module.exports = React.createClass({
   render: function(){
     return (
-      <div className="todo-input">
-        <h1>todo input</h1>
+      <div className="todo-list">
+        <h1>todo list</h1>
       </div>
     )
   }
